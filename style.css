@@ -115,11 +115,6 @@ body{
 
 }
 
-#article{
-        padding-left:30px;
-        padding-top:10px;
-}
-
 #grid > #list_index{
   width: 250px;
     float: left;
@@ -159,6 +154,37 @@ body{
   display: block;
   text-align: -webkit-match-parent;
 
+}
+
+#article{
+  min-height: 400px;
+  padding: 40px 35px;
+}
+
+#article > .hgroup{
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    line-height: 1.5;
+    display: block
+}
+
+#article > .hgroup > h1{
+    color: #333;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+#article > .hgroup > time{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    color: #666;
 }
 
   li, ol, ul {
